@@ -1,0 +1,199 @@
+<Window x:Class="Weather0UI.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        TextElement.FontWeight="Regular"
+        TextElement.FontSize="13"
+        TextOptions.TextFormattingMode="Ideal"
+        TextOptions.TextRenderingMode="Auto"
+        Background="{DynamicResource MaterialDesignPaper}"
+        FontFamily="{DynamicResource MaterialDesignFont}"
+        Width="1200"
+        Height="600"
+        Title="Weather forecast">
+    <Window.Resources>
+        <Style TargetType="Label">
+            <Setter Property="Foreground" Value="{Binding LabelsForeground, UpdateSourceTrigger=PropertyChanged}"/>
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="321"/>
+        </Grid.ColumnDefinitions>
+        <DataGrid ItemsSource="{Binding WeatherDataView}" SelectedItem="{Binding SelectedWeatherData}" Grid.RowSpan="2"
+                  IsReadOnly="True" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Date">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Date}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Conditions">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Image Source="{Binding ConditionsIconPngUrl}" Width="70"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Temp C">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Temperature}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Precipitation">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Precipitation}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Wind s/m">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding WindSpeed}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Pressure hPa">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Pressure}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Clouds">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Cloudiness}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Feels like C">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding PerceptibleTemperature}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Humidity %">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Humidity}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="City">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding City}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                <DataGridTemplateColumn Header="Country">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding Country}" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.Background>
+                <ImageBrush ImageSource="{Binding CloudinessBackground, UpdateSourceTrigger=PropertyChanged}" Stretch="UniformToFill"/>
+            </Grid.Background>
+            <StackPanel>
+                <Label Content="Date and time"/>
+                <Label Content="Temperature C"/>
+                <Label Content="Feels like C"/>
+                <Label Content="Precipitation"/>
+                <Label Content="Wind m/s"/>
+                <Label Content="Pressure hPa"/>
+                <Label Content="Humidity %"/>
+                <Label Content="City"/>
+                <Label Content="Country"/>
+            </StackPanel>
+            <StackPanel Grid.Column="1">
+                <Label Content="{Binding SelectedWeatherData.Date, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.Temperature, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.PerceptibleTemperature, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.Precipitation, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.WindSpeed, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.Pressure, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.Humidity, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.City, UpdateSourceTrigger=PropertyChanged}"/>
+                <Label Content="{Binding SelectedWeatherData.Country, UpdateSourceTrigger=PropertyChanged}"/>
+                <Image Source="{Binding SelectedWeatherData.ConditionsIconPngUrl, UpdateSourceTrigger=PropertyChanged}"/>
+            </StackPanel>
+            <StackPanel Grid.Column="2">
+                <Label Content="City"/>
+                <TextBox Text="{Binding CurrentLocation, UpdateSourceTrigger=PropertyChanged}" Foreground="{Binding LabelsForeground, UpdateSourceTrigger=PropertyChanged}"
+                         Margin="0,0,0,40"/>
+                <Button Command="{Binding CommandsArr[0].Command}" Height="{Binding WeatherByCityAvailableHeight}">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <ContentControl>
+                                    <materialDesign:PackIcon Kind="Radar" Width="100" Height="100" Background="Transparent"
+                                                             Foreground="{Binding LabelsForeground}" Opacity="{Binding WeatherByCityAvailable}"/>
+                                </ContentControl>
+                                <Border CornerRadius="50"/>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button Command="{Binding CommandsArr[1].Command}" Height="{Binding LogClearAvailableHeight}">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <ContentControl>
+                                    <materialDesign:PackIcon Kind="ViewListOutline" Width="100" Height="100" Background="Transparent"
+                                                             Foreground="{Binding LabelsForeground}" Opacity="{Binding LogClearAvailable}"/>
+                                </ContentControl>
+                            <Border CornerRadius="50"/>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button Command="{Binding CommandsArr[2].Command}" Height="{Binding RemoveAvailableHeight}">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <ContentControl>
+                                <materialDesign:PackIcon Kind="TrashCanCircleOutline" Width="100" Height="100" Background="Transparent"
+                                                         Foreground="{Binding LabelsForeground}" Opacity="{Binding RemoveAvailable}"/>
+                            </ContentControl>
+                            <Border CornerRadius="50"/>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+                <Button Command="{Binding CommandsArr[3].Command}" Height="{Binding LogClearAvailableHeight}">
+                    <Button.Template>
+                        <ControlTemplate>
+                            <StackPanel>
+                                <ContentControl>
+                                    <materialDesign:PackIcon Kind="ClearCircleOutline" Width="100" Height="100" Background="Transparent"
+                                                             Foreground="{Binding LabelsForeground}" Opacity="{Binding LogClearAvailable}"/>
+                                </ContentControl>
+                            <Border CornerRadius="50"/>
+                            </StackPanel>
+                        </ControlTemplate>
+                    </Button.Template>
+                </Button>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>

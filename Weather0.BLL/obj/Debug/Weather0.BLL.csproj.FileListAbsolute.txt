@@ -1,0 +1,63 @@
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.BLL.dll
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.BLL.pdb
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.csprojAssemblyReference.cache
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CoreCompileInputs.cache
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.dll
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.pdb
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.dll
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\EntityFramework.dll
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.pdb
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.dll.config
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\EntityFramework.xml
+C:\Users\student\source\repos\dd911 Oleg Kovalenko\Net\EF\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CopyComplete
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\Weather0.DAL.dll.config
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CopyComplete
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0\Weather0.BLL\obj\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\Weather0.DAL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\Weather0.DAL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\Weather0.DAL.dll.config
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\obj\Debug\Weather0.BLL.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CopyComplete
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\obj\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\obj\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.1\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Weather0.DAL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Weather0.DAL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Weather0.DAL.dll.config
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\obj\Debug\Weather0.BLL.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CopyComplete
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\obj\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\obj\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.2\Weather0.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Weather0.BLL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Weather0.DAL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\EntityFramework.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Weather0.DAL.pdb
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Weather0.DAL.dll.config
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\bin\Debug\EntityFramework.xml
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\obj\Debug\Weather0.BLL.csprojAssemblyReference.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CoreCompileInputs.cache
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\obj\Debug\Weather0.BLL.csproj.CopyComplete
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\obj\Debug\Weather0.BLL.dll
+C:\Users\pc\source\repos\exams\WpfEnttyFrmwrkCdFrst_Weather0.4\Weather0.BLL\obj\Debug\Weather0.BLL.pdb
